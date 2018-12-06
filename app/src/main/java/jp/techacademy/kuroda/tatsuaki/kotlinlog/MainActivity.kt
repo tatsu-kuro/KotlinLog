@@ -11,5 +11,7 @@ class MainActivity : AppCompatActivity() {
      //   Log.d("kotlintest", "ログへの出力テスト")
         var human = Human("tatsu", 68)
         human.say()
+        human.hobby="SarahQeen"
+        human.think()
     }
 }
