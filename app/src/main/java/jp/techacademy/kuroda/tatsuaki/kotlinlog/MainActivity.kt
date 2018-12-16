@@ -9,9 +9,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
      //   Log.d("kotlintest", "ログへの出力テスト")
-        var human = Human("tatsu", 68)
+        var human = Human("tatsu", 68, "Qeen")
+        var human1 = Human("kazu",40,"King")
+
         human.say()
-        human.hobby="SarahQeen"
         human.think()
+
+        human1.say()
+        human1.think()
     }
 }
